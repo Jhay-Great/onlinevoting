@@ -1,0 +1,57 @@
+.form-container {
+    /* width: 10%; */
+    height: 100vh;
+    background-color: blue;
+    
+}
+form {
+    /* margin: auto; */
+    width: 50%;
+    height: inherit;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: color-mix(in srgb, red 20%, transparent);
+    backdrop-filter: blur(80px);
+    overflow: hidden;
+}
+form > * {
+    margin: 0 0 1rem;
+    /* border-radius: 15px; */
+    border: none;
+    border-bottom: 2px solid blue;
+    background-color: transparent;
+}
+input {
+    display: block;
+    line-height: 3rem;
+}
+
+@media screen and (max-width: 580px) {
+    form {
+        /* display: block; */
+        /* margin: auto; */
+        width: 100%;
+        /* height: inherit;
+        padding: 0 2rem; */
+        /* flex-direction: column;
+        justify-content: center; */
+        /* align-items: center; */
+        /* background-color: color-mix(in srgb, red 20%, transparent);
+        backdrop-filter: blur(80px);
+        overflow: hidden; */
+    }
+    
+     nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: initial;
+        font-size: smaller;
+        padding: .5rem;
+        background-color: rgb(242, 174, 242);
+    }
+}

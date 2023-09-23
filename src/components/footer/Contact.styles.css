@@ -1,0 +1,13 @@
+footer .contact-logo {
+    width: 2rem;
+    height: 3rem;
+    /* margin: auto; */
+}
+footer .contact-logo > img {
+    width: 100%;
+    cursor: pointer;
+}
+
+footer  p {
+    text-align: center;
+}
